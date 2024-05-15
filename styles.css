@@ -1,0 +1,599 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  height: auto;
+}
+
+.home-container,
+.history-container,
+.team-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image,
+.nav-bar,
+#bootstrap-override-car-container,
+.peak-image-bottom,
+#bootstrap-override-car-inner,
+#bootstrap-override-car-item,
+.team-background-image,
+.schedule,
+.footer {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.background-image {
+  display: block;
+}
+
+.nav-bar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1600px;
+}
+
+.navigation-tabs {
+  font-size: 0.8333333333333334vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 7px;
+}
+
+.navigation-tabs a {
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.navigation-tabs a:link {
+  color: white;
+  text-decoration: none;
+}
+.navigation-tabs a:visited {
+  color: white;
+  text-decoration: none;
+}
+.navigation-tabs a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.brand-name {
+  width: 39.8%;
+  height: auto;
+  position: absolute;
+  top: 43%;
+  left: 44.3%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+}
+
+.home-logo {
+  border-radius: 50%;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  max-width: 1600px;
+  max-height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.header .logo {
+  border-radius: 50%;
+  float: left;
+  margin-top: 20px;
+}
+.name {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #63769d;
+  font-size: 1.6145833333333333vw;
+  max-width: 115px;
+  line-height: 1.3020833333333333vw;
+  letter-spacing: -0.052083333333333336vw;
+  margin-left: 10px;
+  margin-top: 18px;
+  float: right;
+}
+.header-tabs {
+  font-size: 0.8333333333333334vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.header-tabs a {
+  color: black;
+  margin-right: 50px;
+}
+
+.header-tabs a:link {
+  color: black;
+  text-decoration: none;
+}
+.header-tabs a:visited {
+  color: black;
+  text-decoration: none;
+}
+.header-tabs a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.history-description {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 15%;
+  left: 47%;
+  max-height: 100px;
+  transform: translate(-50%, -50%);
+}
+
+#bootstrap-override-container-desc {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #414f6b;
+}
+
+#bootstrap-override-number {
+  font-size: 9.427083333333334vw;
+  opacity: 50%;
+}
+
+#bootstrap-override-title {
+  font-size: 2.1875vw;
+  position: absolute;
+  top: 50%;
+  left: 19%;
+}
+
+#description {
+  color: black;
+  font-size: 1.09375vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 813.66px;
+  margin-top: 300px;
+  margin-left: -110px;
+}
+
+.carousel-container {
+  width: 100%;
+  height: 195px;
+  max-width: 1600px;
+  background-color: rgb(65, 79, 107);
+}
+
+.carousel-container .peak-image-bottom {
+  position: absolute;
+  opacity: 50%;
+  max-height: 100%;
+  max-width: auto;
+}
+
+.carousel-inner {
+  position: absolute;
+  left: 325px;
+}
+
+#bootstrap-override-car-item {
+  width: 450px;
+  max-width: 100%;
+  height: auto;
+}
+
+#bootstrap-override-indicators {
+  position: absolute;
+  top: 165px;
+  left: 25px;
+}
+
+#bootstrap-override-indicators button {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-item {
+  max-width: 225px;
+  max-height: 143px;
+  margin: 15px;
+}
+
+.team-description {
+  height: 200px;
+  width: 1600px;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+}
+
+#bootstrap-override-number-2 {
+  font-size: 9.427083333333334vw;
+  opacity: 50%;
+  position: absolute;
+  top: -22px;
+  left: 250px;
+}
+
+#bootstrap-override-title-2 {
+  font-size: 2.1875vw;
+  position: absolute;
+  top: 93px;
+  left: 443px;
+}
+#description-2 {
+  color: black;
+  font-size: 1.09375vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  max-width: 700px;
+  position: absolute;
+  top: 65px;
+  left: 560px;
+}
+
+.tabs {
+  background-color: #414f6b;
+}
+
+.schedule {
+  background-color: white;
+  position: absolute;
+  top: 350px;
+  left: 350px;
+  width: 352px;
+  height: 235px;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: left;
+  padding: 25px;
+  padding-top: 15px;
+}
+
+#bootstrap-override-h2 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #414f6b;
+  font-size: 2.2395833333333335vw;
+}
+
+.schedule-list {
+  list-style: none;
+  font-size: 0.78125vw;
+  padding: 0;
+  line-height: 28px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+br {
+  display: block;
+  content: "";
+  margin-top: 10px;
+}
+
+.schedule-list li {
+  display: flex;
+  flex-direction: space-between;
+}
+
+.schedule-list li p {
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+.nav-link {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1.40625vw;
+}
+
+.tabs {
+  width: 100%;
+  max-width: 1600px;
+}
+
+.nav-tabs {
+  margin: 0;
+}
+
+#bootstrap-override-nav-link {
+  border-radius: 0;
+  border: none;
+}
+
+#bootstrap-override-nav-link:target {
+  text-decoration: underline;
+  color: #414f6b;
+  background-color: #b0b4be;
+  text-decoration: underline;
+}
+
+#bootstrap-override-nav-link {
+  color: #b0b4be;
+}
+
+#bootstrap-override-nav-link:hover {
+  color: #414f6b;
+  background-color: #b0b4be;
+  text-decoration: underline;
+}
+.nav-items:hover {
+  background-color: #b0b4be;
+}
+
+.mountain-1-tab:target {
+  display: block;
+}
+
+.mountain-1-tab {
+  display: none;
+}
+
+.mountain-2-tab {
+  display: none;
+}
+
+.mountain-2-tab:target {
+  display: block;
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #414f6b;
+  width: 1600px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-image {
+  border-radius: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.footer-name {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #63769d;
+  font-size: 31px;
+  max-width: 115px;
+  line-height: 25px;
+  letter-spacing: -1px;
+  margin-left: 10px;
+  margin-top: 18px;
+  float: right;
+}
+
+.footer-copyright {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  color: #63769d;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1200px) {
+  .navigation-tabs a,
+  .header-tabs a {
+    font-size: 1.25vw;
+  }
+
+  .nav-bar {
+    margin-top: 5px;
+  }
+
+  .home-logo {
+    width: 42%;
+    height: auto;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name,
+  .footer-name {
+    font-size: 3.5vw;
+    width: 50px;
+    max-width: 115px;
+  }
+
+  .header {
+    height: 35px;
+  }
+
+  .logo {
+    width: 20%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .name {
+    margin: 0;
+    margin-left: -20px;
+    margin-top: 18px;
+    line-height: 3vw;
+    width: 65px;
+  }
+
+  .brand-name {
+    width: 47%;
+    position: absolute;
+    top: 43%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+  }
+
+  #bootstrap-override-number {
+    margin-left: -30px;
+  }
+
+  #bootstrap-override-title {
+    top: 45px;
+    left: 14px;
+  }
+
+  #description {
+    width: 100%;
+    margin-top: 80px;
+    margin-left: -30px;
+  }
+
+  #bootstrap-override-indicators button {
+    margin-top: -90px;
+    width: 5px;
+    height: 5px;
+  }
+
+  #bootstrap-override-car-container {
+    height: 100%;
+  }
+
+  #bootstrap-override-car-inner {
+    width: 100%;
+    height: auto;
+    left: 0;
+  }
+
+  #img-override {
+    width: 20%;
+  }
+
+  .team-description {
+    height: 75px;
+    width: 100%;
+    background-color: white;
+  }
+
+  #bootstrap-override-number-2 {
+    top: 10px;
+    left: 70px;
+  }
+
+  #bootstrap-override-title-2 {
+    top: 35px;
+    left: 113px;
+  }
+
+  #description-2 {
+    width: 50%;
+    top: 30px;
+    left: 145px;
+  }
+  .schedule {
+    background-color: white;
+    position: absolute;
+    top: 125px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    width: 100vw;
+    height: auto;
+    padding: 1vw;
+    font-size: 1.40625vw;
+  }
+
+  #bootstrap-override-h2 {
+    font-size: 5vw;
+  }
+
+  .schedule-list {
+    font-size: 4vw;
+    padding: 0;
+    line-height: 17.5px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .footer-left-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    height: 65%;
+  }
+
+  .footer-image {
+    width: 45%;
+    height: auto;
+    margin-top: -7px;
+  }
+  .footer-name {
+    font-size: 3.5vw;
+    margin-left: -15px;
+    line-height: 3vw;
+  }
+
+  .footer-copyright {
+    font-size: 2.5vw;
+  }
+}
